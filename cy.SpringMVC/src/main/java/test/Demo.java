@@ -1,9 +1,11 @@
 package test;
 
 import dao.TestDao;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
+import service.TestService;
 
 import java.lang.reflect.Field;
 
@@ -18,7 +20,7 @@ public class Demo {
 
     public static void main(String[] args) {
 
-        TestDao td = (TestDao) cx.getBean("testDao");
-        td.testDao();
+        TestService service = (TestService) cx.getBean("testService");
+        service.testService();
     }
 }

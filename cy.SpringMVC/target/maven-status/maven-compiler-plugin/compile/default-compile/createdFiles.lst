@@ -1,4 +1,5 @@
 controller\BaseController.class
+dao\TestDao.class
 service\TestService.class
 controller\TestController.class
 controller\ResponseStatus.class

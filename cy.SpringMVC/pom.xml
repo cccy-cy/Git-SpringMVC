@@ -47,7 +47,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-beans</artifactId>
-      <version>5.2.2.RELEASE</version>
+      <version>5.3.18</version>
     </dependency>
 
 <!--    aop这里的jar版本，如果是4.3.0就会出错，要用4.3.12,-->
